@@ -1,0 +1,44 @@
+body {
+    background: url('../img/bg-cuitter.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-register {
+    background: white;
+    padding: 20px;
+    border-radius: 0 0 1% 1%;
+
+}
+
+.profil-header {
+    margin: 50px 0;
+    color: white;
+}
+
+.profil-header a{
+    color: white;
+}
+
+
+.profil-header .foto-profil{
+    max-width: 128px;
+    max-height: 128px;
+    height: 128px;
+    width: 128px;
+
+}
+
+.profil-body {
+    background: white;
+    padding: 64px;
+}
+
+.profil-body .status {
+    margin: 32px 0;
+}
+
+.profil-footer {
+    color: white;
+    margin-top: 32px;
+}
