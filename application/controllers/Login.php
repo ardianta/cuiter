@@ -9,7 +9,7 @@ class Login extends CI_Controller{
     }
 
     function prosesLogin(){
-        $username = $this->input->post('username');
+        $username = $this->input-.>post('username');
         $password = md5($this->input->post('password'));
 
         $terdaftar = $this->user->cekUser($username, $password);
