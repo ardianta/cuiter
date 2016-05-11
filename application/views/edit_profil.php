@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Profil</title>
+        <title>Profil - <?php echo $user->nama ?></title>
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/animate.css/animate.min.css') ?>" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css') ?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/cuitter/css/style.css') ?>" />
     </head>
     <body>
@@ -14,7 +15,8 @@
             <div class="row profil-body">
                 <div class="col-md-12">
                     <div>
-                        <a href="<?php echo base_url('profil') ?>">Kembali</a>
+                        <a href="<?php echo base_url('profil') ?>"><i class="fa fa-angle-left"></i> Kembali</a>
+                        <a href="<?php echo base_url('profil/hapus') ?>" class="pull-right"><i class="fa fa-trash"></i> Hapus Akun</a>
                     </div>
                     <h2>Edit Profil</h2>
                     <hr>

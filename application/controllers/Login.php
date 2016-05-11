@@ -26,7 +26,8 @@ class Login extends CI_Controller{
             redirect(base_url('profil'));
         } else {
             // gagal login
-            redirect(base_url());
+            redirect(base_url('login'));
+            $this->session->set_flashdata('pesan', 'Gagal Login');
         }
     }
 

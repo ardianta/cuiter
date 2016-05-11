@@ -5,6 +5,7 @@
         <title>Profil - <?php echo $user->nama ?></title>
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/animate.css/animate.min.css') ?>" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css') ?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/cuitter/css/style.css') ?>" />
     </head>
     <body>
@@ -28,23 +29,23 @@
 
                     <div class="status">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <small class="label label-default">1 menit yang lalu</small>
+                        <br><small class="label label-default"><i class="fa fa-clock-o"></i> 1 menit yang lalu</small>
                     </div>
                     <div class="status">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <small class="label label-default">3 hari yang lalu</small>
+                        <br><small class="label label-default"><i class="fa fa-clock-o"></i> 3 hari yang lalu</small>
                     </div>
                     <div class="status">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <small>1 minggu yang lalu</small>
+                        <br><small class="label label-default"><i class="fa fa-clock-o"></i> 1 minggu yang lalu</small>
                     </div>
                     <div class="status">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <small class="label label-default">4 bulan yang lalu</small>
+                        <br><small class="label label-default"><i class="fa fa-clock-o"></i> 4 bulan yang lalu</small>
                     </div>
                     <div class="status">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <small class="label label-default">05 Juni 2011</small>
+                        <br><small class="label label-default"><i class="fa fa-clock-o"></i> 05 Juni 2011</small>
                     </div>
 
                 </div>

@@ -39,8 +39,8 @@ class user extends CI_Model {
         $this->db->update('user', $this, array('id' => $id));
     }
 
-    function delete(){
-
+    function delete($id){
+        $this->db->delete('user', array('id' => $id));
     }
 
     public function cekSession() {

@@ -12,6 +12,7 @@
 
         <div class="container">
             <div class="row">
+                <?php echo $this->session->flashdata('pesan') ?>
                 <div class="col-md-5 form-register text-center animated slideInDown">
                     <h2>Masuk ke Cuitter</h2>
                     <p>Belum punya akun? <a href="<?php echo base_url('register') ?>">Daftar di sini</a></p>

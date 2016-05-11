@@ -59,4 +59,9 @@ class Profil extends CI_Controller{
         }
     }
 
+    function hapus(){
+        $this->user->delete($this->session->userdata('id'));
+        redirect(base_url());
+    }
+
 }
