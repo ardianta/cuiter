@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 10, 2016 at 03:32 PM
+-- Generation Time: May 11, 2016 at 12:13 PM
 -- Server version: 5.7.12-0ubuntu1
 -- PHP Version: 7.0.4-7ubuntu2
 
@@ -40,9 +40,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `username`, `password`, `email`, `foto`) VALUES
-(1, 'Aaaa', 'aaa', 'aa', 'aaa@gmail.com', ''),
-(2, 'abc', 'abc', 'acb', 'abc@zyz', ''),
-(3, 'iii', 'iii', 'iii', 'iii@iii', '');
+(10, 'Ardianta Pargo', 'ardiantapargo', '01c92d3c5e470cbc71b8a461b0ecff53', 'ardiantapargo@gmail.com', '10.png'),
+(12, 'Administrator', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@web.com', '12.png');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +61,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

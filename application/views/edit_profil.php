@@ -48,7 +48,7 @@
 
             <div class="row profil-footer">
                 <div class="col-md-12">
-                    <p>Copyright &copy; STMIK Bumigora Mataram</p>
+                    <p>Copyright &copy; <?php echo Date('Y') ?> <a href="http://petanikode.com">Ardianta Pargo</a></p>
                 </div>
             </div>
         </div>
